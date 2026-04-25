@@ -1,4 +1,45 @@
-pyTelegramBotAPI==4.18.0
-flask==3.0.3
-psutil==5.9.8
-requests==2.32.3
+# ╔══════════════════════════════════════════════════════════╗
+# ║        🖤 DARK SHADOW BOT — requirements.txt            ║
+# ║             Owner: @DarkConflig                         ║
+# ╚══════════════════════════════════════════════════════════╝
+
+# ── Core Telegram Bot ─────────────────────────────────────
+pyTelegramBotAPI==4.23.0        # telebot — main bot library
+
+# ── Web Dashboard + Keep-Alive (Render) ───────────────────
+Flask==3.1.0                    # web dashboard + API routes
+Werkzeug==3.1.0                 # Flask dependency (sessions, routing)
+
+# ── HTTP Requests (GitHub deploy, self-ping, Render) ──────
+requests==2.32.3                # HTTP client — ping, GitHub, crypto
+
+# ── System Monitoring (Resource alerts, CPU/RAM) ──────────
+psutil==6.1.1                   # CPU, RAM, Disk, Network stats
+
+# ── Scheduler (Cron jobs, scheduled script runs) ──────────
+schedule==1.2.2                 # cron-style job scheduler
+
+# ── Standard Library (already included in Python 3.x) ────
+# ast          — script syntax checking
+# csv          — revenue CSV export
+# difflib      — file diff/compare
+# hashlib      — PIN hashing, referral codes
+# io           — in-memory file buffers
+# json         — config and API responses
+# logging      — log management
+# os           — file system operations
+# re           — regex error pattern matching
+# secrets      — secure token generation
+# shutil       — file copy, folder delete
+# signal       — process signal handling
+# sqlite3      — user database
+# subprocess   — script execution
+# threading    — background workers
+# time         — cooldowns, timers
+# zipfile      — ZIP project extraction
+# fnmatch      — file pattern matching
+# base64       — encoding utilities
+# tempfile     — temp file handling
+# collections  — defaultdict, counters
+# datetime     — scheduling, expiry
+# functools    — decorators (wraps)
